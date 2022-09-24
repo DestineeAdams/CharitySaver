@@ -1,0 +1,19 @@
+{
+  "name": "charitysaver",
+  "version": "1.0.0",
+  "description": "Sometimes people donate things that aren’t good enough and end up in the trash. <br>\r This app that lets someone upload a picture so a shelter can  <br>\r see if the item is worth donating.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DestineeAdams/CharitySaver.git"
+  },
+  "author": "Destinee Adams, Christian Morgan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DestineeAdams/CharitySaver/issues"
+  },
+  "homepage": "https://github.com/DestineeAdams/CharitySaver#readme"
+}
