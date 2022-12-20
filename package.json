@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/DestineeAdams/CharitySaver/issues"
   },
-  "homepage": "https://github.com/DestineeAdams/CharitySaver#readme"
+  "homepage": "https://github.com/DestineeAdams/CharitySaver#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express-handlebars": "^6.0.6",
+    "nodemon": "^2.0.20"
+  }
 }
