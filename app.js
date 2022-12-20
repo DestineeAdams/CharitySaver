@@ -1,14 +1,14 @@
-const http = require('http');
+const express = require('express')
+const path = require('path')
+// const hbs = require('hbs')
+const app = express()
 
-const hostname = '127.0.0.1';
-const port = 3000;
+// View Engine Setup
+app.set('views', path.join(__dirname));
+app.set('view engine', 'hbs');
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('<h1>Hello World</h1>');
-});
+app.get('/', function(req, res){
+    res.render('./views/home.hbs');
+})
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+app.listen(3000);
